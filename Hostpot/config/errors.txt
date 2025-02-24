@@ -1,0 +1,22 @@
+# Mensajes de error personalizados para el Hotspot MikroTik
+
+# Mensaje mostrado si el usuario no ha iniciado sesión
+not-logged-in = No has iniciado sesión. Por favor, ingresa tus credenciales.
+
+# Error de IP: Si no se puede asignar una dirección IP a un usuario
+ippool-empty = No hay direcciones IP disponibles. Intenta nuevamente más tarde.
+
+# Error de configuración interna
+internal-error = Error interno. Por favor, intenta nuevamente o contacta al administrador.
+
+# Error si la sesión del usuario ha sido bloqueada
+blocked = Tu sesión ha sido bloqueada debido a una infracción de las políticas de uso.
+
+# Error de usuario desconocido
+invalid-username = Usuario o contraseña incorrectos. Por favor, verifica tus credenciales.
+
+# Error si el RADIUS no responde
+radius-timeout = No se pudo contactar con el servidor de autenticación. Intenta nuevamente.
+
+# Mensaje para usuarios de prueba
+trial-expired = Tu sesión de prueba ha expirado. Por favor, contacta al administrador.
