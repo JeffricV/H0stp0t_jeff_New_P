@@ -1,0 +1,86 @@
+/* Estilos generales */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.welcome-text {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Formulario de Login */
+.login-form .input-group {
+    margin-bottom: 15px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos de la tabla */
+.status-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.status-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.retry-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.retry-link:hover {
+    text-decoration: underline;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}

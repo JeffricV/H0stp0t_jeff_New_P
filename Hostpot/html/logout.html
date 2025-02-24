@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+    <title>Logout | Red Hotspot FerreTodo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img src="logo.jpg" alt="Logo FerreTodo" class="logo">
+            <p class="welcome-text">Has cerrado sesión</p>
+        </div>
+
+        <table class="status-table">
+            <tr>
+                <td>Usuario:</td>
+                <td>$(username)</td>
+            </tr>
+            <tr>
+                <td>IP:</td>
+                <td>$(ip)</td>
+            </tr>
+            <tr>
+                <td>MAC:</td>
+                <td>$(mac)</td>
+            </tr>
+            <tr>
+                <td>Tiempo de sesión:</td>
+                <td>$(uptime)</td>
+            </tr>
+        </table>
+
+        <p><a href="login.html" class="retry-link">Iniciar sesión nuevamente</a></p>
+    </div>
+</body>
+
+</html>
